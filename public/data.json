@@ -1,0 +1,68 @@
+{
+  "portfolio": [
+    {
+      "name": "COVID-19 Relief Initiative",
+      "company": "AT&T",
+      "src": "safe-mini.png",
+      "description": "An inventory management application built to track the flow of 3D-printed PPE (face-shields, earsavers, and masks) from AT&amp;T volunteers to essential workers across the nation.",
+      "stack": [
+        {
+          "src": "react-logo.svg",
+          "alt": "React Logo"
+        },
+        {
+          "src": "tailwindcss-logo.svg",
+          "alt": "TailwindCSS Logo"
+        },
+        {
+          "src": "graphql-logo.svg",
+          "alt": "GraphQL Logo"
+        }
+      ]
+    },
+    {
+      "name": "Internal Open Source Platform",
+      "company": "AT&T",
+      "src": "openspace-mini.png",
+      "description": "An internal open-source hub that allowed new-hire developers to collaborate with their peers across the nation via code-sharing and blog posts.",
+      "stack": [
+        {
+          "src": "react-logo.svg",
+          "alt": "React Logo"
+        },
+        {
+          "src": "tailwindcss-logo.svg",
+          "alt": "TailwindCSS Logo"
+        },
+        {
+          "src": "graphql-logo.svg",
+          "alt": "GraphQL Logo"
+        }
+      ]
+    },
+    {
+      "name": "Internal Design System",
+      "company": "AT&T",
+      "src": "graphite-mini.png",
+      "description": "An internal design system with an accompanying Sketch UI Kit for designers, CSS Framework, and React Component library to allow developers and designers alike to create beautiful, trendy user interfaces.",
+      "stack": [
+        {
+          "src": "react-logo.svg",
+          "alt": "React Logo"
+        },
+        {
+          "src": "tailwindcss-logo.svg",
+          "alt": "TailwindCSS Logo"
+        },
+        {
+          "src": "graphql-logo.svg",
+          "alt": "GraphQL Logo"
+        },
+        {
+          "src": "nextjs-logo.svg",
+          "alt": "NextJS Logo"
+        }
+      ]
+    }
+  ]
+}

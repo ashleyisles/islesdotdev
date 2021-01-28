@@ -1,65 +1,31 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Home () {
   return (
-    <div className={styles.container}>
+    <div className="flex w-full h-full align-center self-center justify-center flex-col">
       <Head>
-        <title>Create Next App</title>
+        <title>Ashley Isles</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+      <div className="self-center text-center">
+        <h1 className="text-black dark:text-white text-6xl font-bold font-display"><span role="img" aria-label="waving hand, brown skin tone">👋🏾</span> Hi, I’m Ashley. </h1>
+        <p className="text-gray-600 dark:text-gray-300 text-2xl mt-5">I'm a design-minded web developer based in Texas <span role="img" aria-label="Cowboy">🤠</span></p>
+      </div>
+      <hr className="my-12 w-64 border-2 rounded-full border-gray-400 self-center" />
+      <div className="self-center grid gap-8 grid-flow-col">
+        <a className="flex items-center dark:text-white" href="http://www.github.com/ashleyisles">
+          <img className="h-8 w-auto mx-2" src="/logos/github-logo.svg" alt="Github Logo" />
+          <span className="text-base hover:text-gray-600">@ashleyisles</span>
         </a>
-      </footer>
+        <a className="flex items-center dark:text-white" href="http://www.instagram.com/isles.dev">
+          <img className="h-8 w-auto mx-2" src="/logos/instagram-logo.svg" alt="Instagram Logo" />
+          <span className="text-base hover:text-gray-600">@isles.dev</span>
+        </a>
+        <a className="flex items-center dark:text-white" href="http://www.twitter.com/islesdotdev">
+          <img className="h-8 w-auto mx-2" src="/logos/twitter-logo.svg" alt="Twitter Logo" />
+          <span className="text-base hover:text-gray-600">@islesdotdev</span>
+        </a>
+      </div>
     </div>
   )
 }
